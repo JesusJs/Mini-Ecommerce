@@ -1,0 +1,64 @@
+:root {
+    --facebook: #1B0655;
+    --twitter: #3D06D5;
+    --instagram: #D5067A;
+}
+
+footer>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 14vh;
+    color: white;
+    border-top: 1px solid #6833FF;
+    opacity: 0.5;
+}
+
+.fecha,
+p {
+    float: right;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.logf {
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.icons a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+a,
+li {
+    list-style: none;
+}
+
+.icons a li .facebook {
+    background: var(--facebook);
+}
+
+.instagram {
+    background: var(--instagram);
+}
+
+.icons a li .twitter {
+    background: var(--twitter);
+}

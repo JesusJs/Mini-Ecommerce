@@ -1,0 +1,16 @@
+/* adwa */
+
+.navbar {
+    opacity: 0.5;
+    z-index: 1;
+    border-bottom: 1px solid #6833FF;
+}
+
+.logo {
+    font-family: 'Special Elite', cursive;
+}
+
+li {
+    font-family: 'Crete Round', serif;
+    font-size: 16px;
+}

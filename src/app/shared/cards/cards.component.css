@@ -1,0 +1,37 @@
+img {
+    width: 250px;
+    height: 250px;
+}
+
+h3 {
+    font-size: 35;
+}
+
+h4,
+h3,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+.ms {
+    margin-left: 70px;
+}
+
+h3 {
+    margin-left: 280px;
+}
+
+.perso1 {
+    margin-left: 200px;
+}
+
+.perso2 {
+    margin-left: 100px;
+}
+
+.perso3 {
+    margin-left: 220px;
+}
